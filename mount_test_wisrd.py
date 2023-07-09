@@ -16,7 +16,7 @@ Inputs:
 		This will give you a list of active serial communication ports. The mount will have a USB device path of the form /dev/ttyUSB, followed by a number
 		Try communicating with each port.
 	Baud rate:
-		The second input in line ___ is 9600, which is the baudrate. It can be changed to any value, namely 115200 for CEM40 mounts
+		The second input in line 36 is 9600, which is the baudrate. It can be changed to any value, namely 115200 for CEM40 mounts
 	Commands:
 		Every mount_port.write(b'<command>') sends a request to the mount to do something, and the mount will always send serial information back
 		Any <command> can be sent to the mount this way. The available commands are from the iOptron RS-232 Command Langauge. For an IEq30Pro mount with 
